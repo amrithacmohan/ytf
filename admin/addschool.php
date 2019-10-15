@@ -119,22 +119,22 @@ ECHO $p;
 
 
 <div id="page-title">
-	    <h2>Add a New School</h2>
+	    <h2>Add a New College</h2>
 	    
 	</div>
 
 	<div class="panel">
     	<div class="panel-body">
 	        <h3 class="title-hero">
-	            School
+	            College
 	        </h3>
 	        <form class="form-horizontal bordered-row" data-parsley-validate action="" method="post">
 	        	<div class="row">
 	        		<div class="col-md-12">
 			        	<div class="form-group">
-		                    <label class="col-sm-3 control-label">School Code</label>
+		                    <label class="col-sm-3 control-label">College Code</label>
 		                    <div class="col-sm-4">
-		                        <input type="Text" name="schoolcode" placeholder="school code" class="form-control"  min="6">
+		                        <input type="Text" name="schoolcode" placeholder="college code" class="form-control"  min="6">
 		                    </div>
 		                </div>
 	        		</div>

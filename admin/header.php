@@ -101,7 +101,7 @@
                                 </a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li><a href="<?php echo PATH_ADMIN . '/addschool.php' ?>" title="Buttons"><span>Add a New school</span></a></li>
+                                        <li><a href="<?php echo PATH_ADMIN . '/addschool.php' ?>" title="Buttons"><span>Add a New College</span></a></li>
                                     </ul>
                                 </div>
                                 <div class="sidebar-submenu">

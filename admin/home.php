@@ -1,11 +1,11 @@
 
 <?php include_once( 'header.php' ); ?>
-
+<body>
    
 	<div id="page-title">
 	   
-	    <img src="../assets/images/adminhome.jpg" height=800 width=1200> 
-	    <p></p>
+	   <center> <img src="../assets/images/home.jpg" height=400 width=400 > </center>
+	   
 	    	</div>
 	
 	

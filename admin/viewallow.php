@@ -51,8 +51,8 @@ window.location.href = 'viewallow.php';
     <th>Program</th>
     <th>Number of Participants</th>
     <th>Stage name</th>
-    <th>Date</th>
-    <th>Time</th>
+    <th>Start time</th>
+    <th>End time</th>
   
     
 </tr>

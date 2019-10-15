@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg  bg-white fixed-top">
       <div class="container">
         <a class="navbar-brand" href="http://localhost/ytf/index.php">
-          <img src="image/logo.jpg">
+          <img src="image/logo.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -71,47 +71,47 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('img1.jpg')">
+          <div class="carousel-item active" style="background-image: url('im1.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
+              <h3>ILLUMINATI</h3>
               <p>WELCOME</p>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('xxx.jpg')">
+          <div class="carousel-item" style="background-image: url('im2.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
-              <p>Its a webpage for Kerala YouthFestival.</p>
+              <h3>ILLUMINATI</h3>
+              <p>Its a webpage for Illuminati Fest.</p>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('slide3jpeg.jpg')">
+          <div class="carousel-item" style="background-image: url('im3.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
+              <h3>ILLUMINATI</h3>
               <p>WELCOME.</p>
             </div>
           </div>
-           <div class="carousel-item" style="background-image: url('img3.jpg')">
+           <div class="carousel-item" style="background-image: url('im4.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3> DRISHYA</h3>
-              <p>Biggest cultural event of Asia.</p>
+              <h3> ILLUMINATI</h3>
+              <p>Biggest college fest  of trivandrum.</p>
             </div>
           </div>
-           <div class="carousel-item" style="background-image: url('img2.jpg')">
+           <div class="carousel-item" style="background-image: url('im5.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
+              <h3>ILLUMINATI</h3>
               <p>Its time to Celebrate.</p>
             </div>
           </div>
-           <div class="carousel-item" style="background-image: url('img5.jpg')">
+           <div class="carousel-item" style="background-image: url('im6.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
-              <p>Welcome to Gods Own Country</p>
+              <h3>ILLUMINATI</h3>
+              <p>Welcome all</p>
             </div>
           </div>
-           <div class="carousel-item" style="background-image: url('img4.jpg')">
+           <div class="carousel-item" style="background-image: url('im7.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>DRISHYA</h3>
+              <h3>ILLUMINATI</h3>
               <p>Enjoy the art.</p>
             </div>
           </div>

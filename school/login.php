@@ -72,7 +72,7 @@ if( isset( $_POST['login'])) {
 			            <div class="content-box-wrapper">
 			                <div class="form-group">
 			                    <div class="input-group">
-			                        <input type="text" class="form-control" name="schoolcode" placeholder="SchooL code" required>
+			                        <input type="text" class="form-control" name="schoolcode" placeholder="college code" required>
 			                    </div>
 			                </div>
 			                <div class="form-group">

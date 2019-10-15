@@ -30,7 +30,7 @@
             <!-- Header -->
             <div id="page-header" class="bg-black font-inverse">
                 <div id="header-logo" class="logo-bg bg-black font-inverse">
-                    Logo
+                    ILLUMINATI
                 </div>  
             </div>
             <!-- Sidebar -->
@@ -93,7 +93,7 @@
 
 
 
-                               <li class="header"><span>Add</span></li>
+                              <!-- <li class="header"><span>Add</span></li> -->
                             <li>
                                 <a href="index.html#" title="Elements">
                                     <i class="glyph-icon icon-linecons-diamond"></i>
@@ -109,7 +109,7 @@
                                         <li><a href="<?php echo PATH. '/Drishya.php' ?>" title="Buttons"><span>Logout</span></a></li>
                                     </ul>
                                 </div>
-                               <li class="header"><span>Add</span></li>
+                              <!-- <li class="header"><span>Add</span></li>-->
                             <li>
                                 <a href="index.html#" title="Elements">
                                     <i class="glyph-icon icon-linecons-diamond"></i>

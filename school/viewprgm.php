@@ -1,4 +1,4 @@
-<?php
+      <?php
 include_once('header.php');
 $db=new Database();
 $s=$_SESSION['userid'];
@@ -72,7 +72,7 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
     <td><?php echo $value['program_id']; ?></td>
      <td><?php echo $value['name']; ?></td>
     
-    <td><a href ="editstud.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">EDIT</a> </td>
+    <td><a href ="level2.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">EDIT</a> </td>
     
 </tr>
 <?php 
