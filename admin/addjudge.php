@@ -107,15 +107,13 @@ if( isset( $_POST['submit'])) {
 ?>
 
 	<div id="page-title">
-	    <h2>Judges</h2>
+	    <h2>Add Judges</h2>
 	  
 	</div>
 
 	<div class="panel">
     	<div class="panel-body">
-	        <h3 class="title-hero">
-	         Add a Judge
-	        </h3>
+	        
 
 	        <form class="form-horizontal bordered-row" data-parsley-validate method="post" action="">
         	

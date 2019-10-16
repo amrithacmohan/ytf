@@ -48,7 +48,7 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
     <div class="panel">
 <div class="panel-body">
 <h3 class="title-hero">
-    Programs
+    
 </h3>
 <div class="example-box-wrapper">
 

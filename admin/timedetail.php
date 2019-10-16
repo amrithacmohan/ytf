@@ -344,15 +344,13 @@ window.location.href = 'viewallow.php';
 
 
   <div id="page-title">
-      <h2>Program Detail</h2>
+      <h2>Enter Details For Automation</h2>
     
   </div>
 
   <div class="panel">
       <div class="panel-body">
-          <h3 class="title-hero">
-            Enter Detail
-          </h3>
+          
 
           <form class="form-horizontal bordered-row" data-parsley-validate method="post" action="">
           

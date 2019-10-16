@@ -42,15 +42,15 @@ if( isset( $_POST['submit'])) {
 ?>
 
 	<div id="page-title">
-	    <h2>Stages</h2>
+	    <h2>Add Stage Details</h2>
 	  
 	</div>
 
 	<div class="panel">
     	<div class="panel-body">
-	        <h3 class="title-hero">
-	         Add Stage Details
-	        </h3>
+	        
+	        
+	        
 
 	        <form class="form-horizontal bordered-row" data-parsley-validate method="post" action="">
         	
@@ -78,7 +78,7 @@ if( isset( $_POST['submit'])) {
 	        		</div>
 
         		  <div class="form-group">
-			                    <div class="input-group">
+			                    <div class="input-group" align="center">
 			                        <input type="submit" class="btn btn-success btn-block" name="submit" value="Submit">
 			                    </div>
 			                </div>

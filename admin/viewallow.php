@@ -40,7 +40,7 @@ window.location.href = 'viewallow.php';
     <div class="panel">
 <div class="panel-body">
 <h3 class="title-hero">
-    Programs
+    Program Details
 </h3>
 <div class="example-box-wrapper">
 

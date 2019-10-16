@@ -44,9 +44,7 @@ if( isset( $_POST['submit'])) {
 
 	<div class="panel">
     	<div class="panel-body">
-	        <h3 class="title-hero">
-	            Elements
-	        </h3>
+	        
 
 	        <form class="form-horizontal bordered-row" data-parsley-validate action="" method="post">
 	        	<div class="row">

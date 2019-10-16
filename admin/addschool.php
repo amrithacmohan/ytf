@@ -94,7 +94,7 @@ if( isset( $_POST['submit'])) {
 			);
 
 			if ($db->execute_query($stmnt, $params) ) {
-			$message = 'School Added';
+			$message = 'College Added';
 				}
 			else
 			{
@@ -125,9 +125,7 @@ ECHO $p;
 
 	<div class="panel">
     	<div class="panel-body">
-	        <h3 class="title-hero">
-	            College
-	        </h3>
+	        
 	        <form class="form-horizontal bordered-row" data-parsley-validate action="" method="post">
 	        	<div class="row">
 	        		<div class="col-md-12">
