@@ -4,7 +4,7 @@
    
 	<div id="page-title">
 	   
-	   <center> <img src="../assets/images/home.jpg" height=400 width=400 > </center>
+	   <center> <img src="../assets/images/home1.jpg" height=580 width=1240 > </center>
 	   
 	    	</div>
 	
