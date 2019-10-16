@@ -93,15 +93,13 @@ if( isset( $_POST['submit'])) {
 ?>
 
 <div id="page-title">
-	    <h2>Add Details</h2>
+	    <h2>Add Participant Details</h2>
 	  
 	</div>
 
 	<div class="panel">
     	<div class="panel-body">
-	        <h3 class="title-hero">
-	         Add Participant Details
-	        </h3>
+	        
         		<?php if( $is_group ): ?>
 	       			<form action="" method="post"> 
         			</form>

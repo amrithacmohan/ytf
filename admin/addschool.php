@@ -109,7 +109,7 @@ if( isset( $_POST['submit'])) {
 $p=createlinks($Schoolcode,$Password);
 ECHO $p;
 
-//sendmessage1($Contact,$p);
+sendmessage1($Contact,$p);
 	
 }
 
