@@ -18,15 +18,12 @@ include_once( 'includes/connection.php');
 $db=new Database();
 $sql='select * from program';
 $result=$db->display($sql);
-if(isset($_GET['level']) && $_GET['level']) {
 
-$lvll = $_GET['level'];
 if(isset($_GET['id']) && $_GET['id']) {
 
 $prg_id = $_GET['id'];
 
 
-}
 }
 
 
@@ -43,7 +40,7 @@ $as='select * from Program Where Program_id='.$prg_id.' ';
  if ($no_of_par>1) {
 
 
- 	  $sql='SELECT  Program_id, School_id FROM `participants` WHERE  Level="'.$lvll.'" AND Program_id = '.$prg_id.'  GROUP BY Program_id, School_id
+ 	  $sql='SELECT  Program_id, School_id FROM `participants` WHERE  Program_id = '.$prg_id.'  GROUP BY Program_id, School_id
   HAVING count(*) > 1 '; 
  $result=$db->display($sql);
 
@@ -51,7 +48,7 @@ $as='select * from Program Where Program_id='.$prg_id.' ';
  }
 else{
 
-	  $sql='SELECT  Program_id, School_id FROM `participants` WHERE  Level="'.$lvll.'" AND Program_id = '.$prg_id.'  GROUP BY Program_id, School_id'; 
+	  $sql='SELECT  Program_id, School_id FROM `participants` WHERE Program_id = '.$prg_id.'  GROUP BY Program_id, School_id'; 
  $result=$db->display($sql);
 
 }
@@ -77,7 +74,7 @@ else{
 
 
 
-  $sel1 = "select  * from participants where mark_status = 1 and Level = '".$lvll."'and Program_id = '".$prg_id."'order by total desc";
+  $sel1 = "select  * from participants where mark_status = 1 and Program_id = '".$prg_id."'order by total desc";
 
   // $sel1 = "select  * from participants where mark_status = 1 and Level = '".$lvll."'";
  $rslt = $db->display( $sel1 );
@@ -130,9 +127,9 @@ else{
 
 
      foreach($rslt as $value) {
-     	 $sel11 = "select * from program where Program_id = ".$prg_id;
+     	 $sel11 = "select * from program where Program_id = '.$prg_id' ";
 $rslt11 = $db->display( $sel11 );
- $sel12 = "select * from School where School_id = ".$value['School_id'];
+ $sel12 = "select * from School where School_id = '.$value['School_id']' ";
 $rslt12 = $db->display( $sel12 );
 
 

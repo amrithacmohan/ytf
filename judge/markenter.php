@@ -62,15 +62,15 @@ if( isset( $_POST['SMark']))
                  $result5= $db->display($sql5);
                  $pgmid= $result5[0]['program_id'];
                  $schlid= $result5[0]['school_id'];
-                 $level= $result5[0]['level'];
+                 
 
-                 $sql3='UPDATE student_program SET '.$jdgno.' = '.$mark.' WHERE program_id='.$pgmid.' AND school_id='.$schlid.' AND level="'.$level.'" ';
+                 $sql3='UPDATE student_program SET '.$jdgno.' = '.$mark.' WHERE program_id='.$pgmid.' AND school_id='.$schlid.' ';
                  $ff3= $db->execute_query($sql3);
                 
                  
                    if($jdgno == 'mark1')
                    {
-                     $sql4='update student_program set team="'.$thy.'" where program_id="'.$pgmid.'" and school_id="'.$schlid.'" and level="'.$level.'" ';
+                     $sql4='update student_program set team="'.$thy.'" where program_id="'.$pgmid.'" and school_id="'.$schlid.'" ';
                      $ff3= $db->execute_query($sql4);
                      
                    }

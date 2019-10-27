@@ -42,7 +42,7 @@ $message = $p;
 
 try {
     $result = $textlocal->sendSms($numbers, $message, $sender);
-    print_r($result);
+//    print_r($result);
 } catch (Exception $e) {
     die('Error: ' . $e->getMessage());
 }
@@ -52,15 +52,16 @@ try {
 
 function createlinks($Schoolcode,$Password)
 {
-	$s1="Please use the given link to register to Drishya.";
-$s2="  <a>localhost/ytf/schoolreg.php?School_code=".$Schoolcode." </a>";
-$s="<a href=".$s2."></a>";
-$s3=$s1.''.$s;
-$s4="your temporary password is ";
+	$s1="Please use the given link to register to Illuminati.";
+$s2="localhost/ytf/schoolreg.php?School_code=".$Schoolcode." </a>";
+$s3=$s1.''.$s2;
+$s4="your temporary password is :";
 $s5=$Password;
 $s6=$s4.$s5;
-$mes=$s3.$s6;
-echo $mes;
+
+$s7="The registration for single event is 100 & group event is 250 ";
+$mes=$s3.$s6.''.$s7;
+
 return $mes;
 }
 
@@ -107,7 +108,7 @@ if( isset( $_POST['submit'])) {
 
 
 $p=createlinks($Schoolcode,$Password);
-ECHO $p;
+//ECHO $p;
 
 sendmessage1($Contact,$p);
 	

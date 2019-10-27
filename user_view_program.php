@@ -61,8 +61,8 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
      <td><?php echo $value['Program']; ?></td>
      <td><?php echo $value['Number_of_participants']; ?></td>
     <td><?php echo $value['pstage_name']; ?></td>
-    <td><?php echo $value['Date']; ?></td>
-    <td><?php echo $value['Time']; ?></td>
+    <td><?php echo $value['start']; ?></td>
+    <td><?php echo $value['end']; ?></td>
     <td></td>
     
 </tr>

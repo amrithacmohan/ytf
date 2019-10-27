@@ -14,10 +14,10 @@ function fullcheck($f)
    $m1= $result2[$i]['mark1'];
    $m2= $result2[$i]['mark2'];
    $m3= $result2[$i]['mark3'];
-   if($m1==null || $m1==null || $m1==null )
+   if($m1==null || $m2==null || $m3==null )
    $k= $k+1; 
   }  
-        if($k==0)
+        if($k==1)
           {
             return 1;
           } 
@@ -39,9 +39,9 @@ $result=$db->display($sql);
 
 
 
- $sql='SELECT p.*, s.Name as pstage_name FROM program p left join stage s on p.stage=s.Stage_Number';
+/* $sql='SELECT p.*, s.Name as pstage_name FROM program p left join stage s on p.stage=s.Stage_Number';
 
-$result=$db->display($sql);
+$result=$db->display($sql); */
 
 
 $search = null;
@@ -98,10 +98,12 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
 <tbody>
     <?php  
      foreach($result as $value) {
+      echo $value['Program_id']; 
         $d=fullcheck($value['Program_id']); 
         if($d==1)
         {
          $visi='visible'; 
+
         } 
         else{
           $visi='invisible';  
@@ -111,11 +113,14 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
     
     <td><?php echo $value['Program']; ?></td>
      <td><?php echo $value['Number_of_participants']; ?></td>
-    <td><?php echo $value['pstage_name']; ?></td>
+    <td><?php echo $value['Stage']; ?></td>
     <td><?php echo $value['start']; ?></td>
     <td><?php echo $value['end']; ?></td>
-    <td><a href ="level.php?id=<?php echo $value['Program_id']; ?>" class="btn btn-danger <?php echo $visi; ?> ">Publish </a> <?php if($visi=='invisible')
-    {echo 'Program not completed';} ?></td>
+    <?php if($visi=='visible')
+    {  ?>
+    <td><a href ="level.php?id=<?php echo $value['Program_id']; ?>" class="btn btn-danger ?> ">Publish </a></td>
+    <?php 
+    }  ?>
     
 </tr>
 <?php 

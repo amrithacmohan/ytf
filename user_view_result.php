@@ -55,7 +55,7 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
 <tr>
     
      <td><?php echo $value['Program'] ?> </td>
-     <td><form method="post"><a href="view1.php?id=<?php echo $value['Program_id']; ?>">Click Here</a></form></td>
+     <td><form method="post"><a href="view2.php?id=<?php echo $value['Program_id']; ?>">Click Here</a></form></td>
     
     
 </tr>

@@ -31,13 +31,13 @@ $scname=$result3[0]['Name'];
   <div class="card-panel teal">
          <span class="white-text">
          <h5> Name:<?php echo $name;?></h5> 
-         <h5> School:<?php echo $scname;?></h5> 
+         <h5> College:<?php echo $scname;?></h5> 
          <h5> Program:<?php echo $pgrm;?></h5>
          <h6>RESULTS</h6>
          <h5> JUDGE 1:<?php echo $mk1;?></h5>
          <h5> JUDGE 2:<?php echo $mk2;?></h5>
          <h5> JUDGE 3:<?php echo $mk3;?></h5>
-         <h5> TOTAL:<?php echo $mk3;?></h5>
+         <h5> TOTAL:<?php echo $tt;?></h5>
          </span>
        </div>   
        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

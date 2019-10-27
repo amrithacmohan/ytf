@@ -21,8 +21,8 @@ window.location.href = 'home.php';
 <?php
 }
 
-/*else {
-
+else {
+/*
 
 
 
@@ -116,12 +116,12 @@ if(isset($_POST['addtopgm']))
 
 
     
-    $stmnt ='update school set participant_id = :partid , name = :name , mobno = :mobno where id = :id';
+    $stmnt ='update student_program set participant_id = :partid , name = :name , mobno = :mobno where id = :id';
       $params = array(
-      ':newpassword1' => $newpassword1
-      ':partid' =>  $partiId,
+     
+      ':partid' => $partiId,
       ':name' => $result[0][1],
-      ':mob' => $result[0][3],
+      ':mobno' => $result[0][3],
       ':id' => $PgmId
       );
 
@@ -140,7 +140,7 @@ if(isset($_POST['addtopgm']))
 
    }
   
-//}
+}
 
 //}
 ?>

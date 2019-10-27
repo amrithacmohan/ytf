@@ -30,7 +30,7 @@ $stgname=$result4[0]['Name'];
   <div class="card-panel teal">
          <span class="white-text">
          <h5> Name:<?php echo $name;?></h5> 
-         <h5> School:<?php echo $scname;?></h5> 
+         <h5> College:<?php echo $scname;?></h5> 
          <h5> Program:<?php echo $pgrm;?></h5>
          <h5> Stage:<?php echo $stgname;?></h5>
          <h5> Start Time:<?php echo $start;?></h5>

@@ -70,7 +70,7 @@
           </div>
 
           <div class="col-md-4">  
-              <a href="http://localhost/ytf/user_view_result.php">
+              <a href="http://localhost/ytf/judge/result1.php">
                 <i style="font-size: 40px; display: block; margin: 10px 0;" class="fa fa-eye" aria-hidden="true"></i>
                 View Result             
               </a>

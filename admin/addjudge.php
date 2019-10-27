@@ -29,9 +29,9 @@ function random_num($size) {
 function sendmessage1($Contact,$p) {
 
 require('textlocal.class.php');
-$a= 'drishyafestmanager@gmail.com';
-$b= 'Sajilekha1';
-$c= 'Lhf4ZXHJ3lc-1yOMmkesZGHzrgOa6VTumbjN3ARxb2';
+$a= 'amrithacmohan@gmail.com';
+$b= '#Amritha1';
+$c= '4Cf4ddN4mLo-ZDu15I5ckuFNxnolDTzU7lY4A0b0Me';
 $textlocal = new Textlocal($a,$b,false);
 
 $numbers = array($Contact);
@@ -40,7 +40,7 @@ $message = $p;
 
 try {
     $result = $textlocal->sendSms($numbers, $message, $sender);
-    print_r($result);
+    //print_r($result);
 } catch (Exception $e) {
     die('Error: ' . $e->getMessage());
 }
@@ -86,7 +86,7 @@ if( isset( $_POST['submit'])) {
 		 {
 		 	$message="Added";
 		 	$po=createlinks($name,$email,$pass12);
-		 	echo $po;
+		 	//echo $po;
 		 	sendmessage1($phno,$po);
 		 }
 		 else
@@ -160,7 +160,7 @@ $result=$db->display($sql);
                             <label class="col-sm-3 control-label">Program</label>
                             <div class="col-sm-6">
                                  <select  name="pid" required class="form-control">
-                               s
+                               
                                <?php  foreach($result as $value) { ?>
                                      <option value=<?php echo $value['Program_id'];?> > <?php echo $value['Program'];?>  </option>
                                  <?php   } ?>
@@ -202,7 +202,7 @@ $result=$db->display($sql);
 			                    </div>
 			                </div>
 
-        		  <?php echo $message; ?>
+        		<?php  echo $message; ?>
 
 <?php include_once( '../footer.php' ); ?>
 
