@@ -57,8 +57,8 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
 <thead>
 <tr>
     
-    <th>Program</th>
-     <th>Number of Participants</th>
+    <th>PROGRAM ID</th>
+     <th>NAME OF PARTICIPANTS</th>
    
   
     
@@ -72,7 +72,7 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
     <td><?php echo $value['program_id']; ?></td>
      <td><?php echo $value['name']; ?></td>
     
-    <td><a href ="level2.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">EDIT</a> </td>
+    <td><a href ="level2.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">REPLACE</a> </td>
     
 </tr>
 <?php 

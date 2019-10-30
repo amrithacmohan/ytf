@@ -15,7 +15,7 @@
 <nav>
      <div class="nav-wrapper teal " >
       
-        <a href="#!" class="brand-logo">DRISHYA</a>
+        <a href="#!" class="brand-logo">ILLUMINATI</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.php?message=PLease Login" >JUDGE</a></li>

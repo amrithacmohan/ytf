@@ -156,7 +156,7 @@
                                 </a>
                                 <div class="sidebar-submenu">
                                     <ul>
-                                        <li><a href="<?php echo PATH_ADMIN . '/result.php?message=publish marks' ?>" title="Buttons"><span>Add REsult</span></a></li>
+                                        <li><a href="<?php echo PATH_ADMIN . '/result.php?message=publish marks' ?>" title="Buttons"><span>Publish Result</span></a></li>
                                     </ul>
                                 </div>
                                 

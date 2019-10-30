@@ -79,7 +79,7 @@ $xx=$db->display($n);
      <td> 
      <?php
        $PidTo= $value['id'];
-       echo "<Button type='submit' name='addtopgm' value='$PidTo' > ADD TO PROGRAM  </Button>";
+       echo "<Button type='submit' name='addtopgm' value='$PidTo' > SELECT  </Button>";
       // echo "<a href ='something.php?participantId=$PidTo&level=$level&prgmId=$PgmId' class='btn btn-danger'>ADD To Programs</a>" ;
       ?> 
     </td>
@@ -126,7 +126,7 @@ if(isset($_POST['addtopgm']))
       );
 
       if ($db->execute_query($stmnt, $params) ) {
-      $message = ' Added';
+      $message = ' Replaced';
       echo $message;
         }
       else
