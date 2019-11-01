@@ -43,6 +43,7 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="http://localhost/ytf/index.php">About</a>
             </li>
@@ -52,6 +53,10 @@
             <li class="nav-item">
               <a class="nav-link" href="http://localhost/ytf/index.php">Contact</a>
             </li>
+
+
+
+            
           </ul>
         </div>
       </div>
