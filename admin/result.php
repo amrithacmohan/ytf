@@ -6,25 +6,33 @@ function fullcheck($f)
 {
    $db=new Database();
    $k=0;
+   $me="visible";
+   $m1= null;
+   $m2= null;
+   $m3= null;
    $sql='select * from student_program where program_id='.$f.' ';
    $result2=$db->display($sql);
    $gcount=count($result2);
-   for($i=0 ; $i < $gcount ; $i++)
+   for($i=0; $i<$gcount; $i++)
   {
-   $m1= $result2[$i]['mark1'];
-   $m2= $result2[$i]['mark2'];
-   $m3= $result2[$i]['mark3'];
-   if($m1==null || $m2==null || $m3==null )
-   $k= $k+1; 
+   $m1 = $result2[$i]['mark1'];
+   $m2 = $result2[$i]['mark2'];
+   $m3 = $result2[$i]['mark3'];
+  
+    if( $m1==null || $m2==null || $m3==null )
+      {
+       $k++; 
+      }
+    
   }  
-        if($k==1)
-          {
-            return 1;
-          } 
-        else
-          {
-            return 0;
-          }
+        
+ if($k!=0 || $gcount==0)
+     {
+    
+     $me="invisible";
+     }  
+
+ return $me;         
 
 }
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -97,17 +105,11 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
 </thead>
 <tbody>
     <?php  
-     foreach($result as $value) {
-      echo $value['Program_id']; 
+     foreach($result as $value) 
+     {
+      
         $d=fullcheck($value['Program_id']); 
-        if($d==1)
-        {
-         $visi='visible'; 
-
-        } 
-        else{
-          $visi='invisible';  
-        }
+        //echo $d;
         ?>
 <tr>
     
@@ -116,7 +118,7 @@ if(isset($_POST['search']) && isset($_POST['searchz'])){
     <td><?php echo $value['Stage']; ?></td>
     <td><?php echo $value['start']; ?></td>
     <td><?php echo $value['end']; ?></td>
-    <?php if($visi=='visible')
+    <?php if($d=='visible')
     {  ?>
     <td><a href ="level.php?id=<?php echo $value['Program_id']; ?>" class="btn btn-danger ?> ">Publish </a></td>
     <?php 
