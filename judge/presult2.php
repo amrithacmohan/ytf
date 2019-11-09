@@ -14,6 +14,10 @@ if($mk1==null){$mk1="Not Published";}
 if($mk2==null){$mk2="Not Published";}
 if($mk3==null){$mk3="Not Published";}
 if($tt==null){$tt="Not Published";}
+if($tt > 25){$grade="A" ;}
+else if($tt > 20){$grade="B" ;}
+else if($tt > 15){$grade="C" ;}
+else{$grade="D" ;}
 
 $pid= $result1[0]['program_id'];
 $schid= $result1[0]['school_id'];
@@ -30,14 +34,16 @@ $scname=$result3[0]['Name'];
   <?php include_once('content.php') ?> 
   <div class="card-panel teal">
          <span class="white-text">
-         <h5> Name:<?php echo $name;?></h5> 
-         <h5> College:<?php echo $scname;?></h5> 
-         <h5> Program:<?php echo $pgrm;?></h5>
-         <h6>RESULTS</h6>
-         <h5> JUDGE 1:<?php echo $mk1;?></h5>
-         <h5> JUDGE 2:<?php echo $mk2;?></h5>
-         <h5> JUDGE 3:<?php echo $mk3;?></h5>
-         <h5> TOTAL:<?php echo $tt;?></h5>
+         <h7> NAME :<?php echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"; echo $name;?></h7><br> 
+
+         <h7> COLLEGE :<?php echo "&nbsp&nbsp&nbsp&nbsp&nbsp"; echo $scname ;?></h7><br>
+         <h7> PROGRAM :<?php echo "&nbsp&nbsp&nbsp"; echo $pgrm;?></h7><br>
+         <h6><u><b>RESULTS</u></b></h6>
+         <h7> JUDGE 1 :<?php echo "&nbsp&nbsp&nbsp"; echo $mk1;?></h7><br>
+         <h7> JUDGE 2 :<?php echo "&nbsp&nbsp&nbsp"; echo $mk2;?></h7><br>
+         <h7> JUDGE 3 :<?php echo "&nbsp&nbsp&nbsp"; echo $mk3;?></h7><br>
+         <h7> TOTAL   :<?php echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"; echo $tt;?></h7><br>
+         <h7> GRADE   :<?php echo "&nbsp&nbsp&nbsp&nbsp&nbsp"; echo $grade;?></h7><br>
          </span>
        </div>   
        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
