@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView = (WebView)findViewById(R.id.n1);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("http://192.168.43.230:80/ytf/judge/index.php");
+        myWebView.loadUrl("http://192.168.43.65:80/ytf/judge/index.php");
         myWebView.setWebViewClient(new WebViewClient());
 
     }

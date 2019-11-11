@@ -17,7 +17,8 @@ if($tt==null){$tt="Not Published";}
 if($tt > 25){$grade="A" ;}
 else if($tt > 20){$grade="B" ;}
 else if($tt > 15){$grade="C" ;}
-else{$grade="D" ;}
+else if($tt > 3){$grade="D" ;}
+else{$grade="Not Published" ;}
 
 $pid= $result1[0]['program_id'];
 $schid= $result1[0]['school_id'];

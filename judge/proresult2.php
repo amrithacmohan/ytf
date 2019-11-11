@@ -28,6 +28,7 @@ if(count($result1)!=0){
          <span class="white-text">
          <h5> RANK:<?php echo $n; $n++?></h5>
          <h5> NAME:<?php echo $value['name'];?></h5> 
+         
          <h5> REGNO:<?php echo $value['regno'];?></h5> 
          <h5> SCORE:<?php echo $value['total'];?></h5>
         

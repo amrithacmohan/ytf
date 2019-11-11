@@ -50,15 +50,7 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://localhost/ytf/index">1About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://localhost/ytf/index">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://localhost/ytf/index">Contact</a>
-            </li>
+            
           </ul>
         </div>
       </div>
